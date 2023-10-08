@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+   <header>
+    <!-- nav -->
+    <nav>
+      <div class="nav-logo">CD.Kaushal</div>
+      <div class="menu-buttons">
+        <!-- drak mode -->
+        <div id="dark-btn" class="dark-btn">
+          <i id="icons" class="fa-solid fa-moon"></i>
+        </div>
+        <!-- menu btn --> 
+        <input type="checkbox" id="ham-menu" />
+        <label for="ham-menu" class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+      <ul id="nav-bar">
+        <li><a class="active-menu" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skiils</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  
+	</header>
+	<!-- main -->
+	<main>
+		<!-- Home -->
+		<section class="section" id="home">
+			<!-- title -->
+			<div class="home-title">
+				<h1>Hi,<br> I'm <samp>Kaushal</samp><br>
+					<div class="animated-text">
+						<h3>Web Designer</h3>
+						<h3>Frontend Developer</h3>
+					</div>
+				</h1>
+				<div class="home-button"><a href="#contact">Contact</a></div>
+			</div>
+			<!-- img -->
+			<div class="home-img"><img src="img/banner.png" alt=""></div>
+		</section>
+		<!-- About -->
+		<section class="section" id="about">
+			<!-- about-title -->
+			<div class="about-header header-title">About</div>
+			<div class="about-thiks">
+				<div class="about-img"><img src="img/about-us.png" alt=""></div>
+				<div class="about-p">
+					<p>Hi i'm <samp>Kaushal</samp><br> I know HTML, CSS, and JavaScript as a Brinnger. These languages enable me
+						to build stunning and useful websites. Additionally, I am an expert user of Figma, a potent design tool that
+						aids me in putting my ideas into action. My abilities also include making logos for gaming channels and
+						editing photos. I am able to take on a range of assignments and produce results of the highest calibre
+						because to my wide skill set.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- skills -->
+		<section class="section" id="skills">
+			<div class="header-title">Skills</div>
+			<div class="skills-thiks">
+				<div class="skills-title">
+					<h1>My Skills</h1>
+					<p>You can see my skills and which type of I thiks can do for You.</p>
+					<div class="skills-button"><a href="#works">Works</a></div>
+				</div>
+				<div class="skills-list">
+					<ol>
+						<li>Html</li>
+						<li>Css</li>
+						<li>Sass</li>
+						<li>JavaScript</li>
+						<li>Figma</li>
+					</ol>
+				</div>
+			</div>
+		</section>
+		<!-- works -->
+		<section class="section" id="works">
+			<div class="header-title">Works</div>
+			<div class="works-head">
+				<!-- works-option -->
+				<div id="button" class="works-option">
+					<button class="works-active" data-target="all">All</button>
+					<button data-target="my-code">Codes</button>
+					<button data-target="my-figma">Figma</button>
+				</div>
+				<!-- works -->
+				<div class="my-works">
+					<!-- code-1 -->
+					<div class="works-img" data-id="my-code">
+						<div class="image">
+							<img class="image__img" src="img/code-1.png" alt="Bricks">
+							<div class="image__overlay image__overlay--primary">
+								<div class="image__title">Snow Music</div>
+								<p class="image__description">
+									This is a Wedside of Discord Music Bot
+								</p>
+								<a target="_blank" class="image_button" href="https://github.com/kaushalsahu07/Snow-music">Vise Code</a>
+							</div>
+						</div>
+					</div>
+					<!-- code-1 -->
+					<div class="works-img" data-id="my-code">
+						<div class="image">
+							<img class="image__img" src="img/code-2.png" alt="Bricks">
+							<div class="image__overlay image__overlay--primary">
+								<div class="image__title">Red Store</div>
+								<p class="image__description">
+									E-Commer Website {demo Website}
+								</p>
+								<a target="_blank" class="image_button" href="https://wedsite.weddrgd.repl.co/index.html">Vise
+									Website</a>
+							</div>
+						</div>
+					</div>
+					<!-- figma-1 -->
+					<div class="works-img" data-id="my-figma">
+						<div class="image">
+							<img class="image__img" src="img/figma-1.png" alt="Bricks">
+							<div class="image__overlay image__overlay--primary">
+								<div class="image__title">CD.kaushal</div>
+								<p class="image__description">
+									My Portfolie Website Design
+								</p>
+								<a target="_blank" class="image_button"
+									href="https://www.instagram.com/p/Crnn4KWBgZF/?utm_source=ig_web_button_share_sheet">Visw Design</a>
+							</div>
+						</div>
+					</div>
+					<!-- figma-2 -->
+					<div class="works-img" data-id="my-figma">
+						<div class="image">
+							<img class="image__img" src="img/figma-2.png" alt="Bricks">
+							<div class="image__overlay image__overlay--primary">
+								<div class="image__title">Export World</div>
+								<p class="image__description">
+									This is a Desgin of Trip App
+								</p>
+								<a target="_blank" class="image_button"
+									href="https://www.instagram.com/p/CryUNH4IAWQ/?utm_source=ig_web_button_share_sheet">Visw Design</a>
+							</div>
+						</div>
+					</div>
+					<!-- figma-3 -->
+					<div class="works-img" data-id="my-figma">
+						<div class="image">
+							<img class="image__img" src="img/figma-3.jpg" alt="Bricks">
+							<div class="image__overlay image__overlay--primary">
+								<div class="image__title">Export World</div>
+								<p class="image__description">
+									This is a Desgin of Car rent app
+								</p>
+								<a target="_blank" class="image_button"
+									href="https://www.instagram.com/p/Cs4IVd9oqsd/?utm_source=ig_web_button_share_sheet">Visw Design</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- contact -->
+				<section class="section" id="contact">
+					<div class="header-title">Contact</div>
+					<form class="contact-form" action="" id="contact-form">
+
+						<div class="contact-name">
+							<input type="text" placeholder="Name" name="name" id="name">
+						</div>
+
+						<div class="contact-email">
+							<input type="email" placeholder="Email" name="email" id="email">
+						</div>
+
+						<div class="contact-message">
+							<textarea name="message" placeholder="Message" id="message" cols="30" rows="8"></textarea>
+						</div>
+
+						<button id="contact-button" class="contact-button">Submit</button>
+						<div id="contact-message"></div>
+					</form>
+				</section>
+				<!--  -->
+				<a class="scrollup" id="scroll-up" href="#">
+					<i class="fa-solid fa-arrow-up"></i>
+				</a>
+				<!-- footer -->
+				<footer>
+					<div class="footer-list">
+
+						<div class="footer-list-pages">
+							<ul>
+								<li><a href="#home">Home</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#skills">Skiils</a></li>
+								<li><a href="#works">Works</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div>
+
+						<div class="footer-list-pages">
+							<ul>
+								<li><a href="https://instagram.com/cd.kaushal" target="_blank"><i class="fa-brands fa-instagram"></i>
+										Instagram</a></li>
+								<li><a href="https://github.com/kaushalsahu07" target="_blank"><i class="fa-brands fa-github"></i>
+										Github</a></li>
+								<li><a href="https://dribbble.com/cdkaushal" target="_blank"><i class="fa-brands fa-dribbble"></i>
+										Dibbble</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer-line"></div>
+
+					<div class="footer-title">Copyright© 2023</div>
+				</footer>
+	</main>
+	
+    <!-- javasprite -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
