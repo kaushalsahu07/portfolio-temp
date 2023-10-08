@@ -417,7 +417,7 @@ form {
   padding: 10px;
   background-color: var(--background-color);
   outline: none;
-  color: var(--fix-color);
+/*   color: var(--fix-color); */
   resize: none;
 }
 
