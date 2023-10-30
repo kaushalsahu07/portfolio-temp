@@ -74,12 +74,23 @@ body {
   background-color: var(--background-color);
 }
 /* nav */
+.section {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+header{
+  z-index: 100;
+	position: fixed;
+	width: 100%;
+}
 nav {
+  box-shadow: 1px 0px 2px var(--font-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 80px;
+  background-color: var(--background-color);
   flex-wrap: wrap;
   color: var(--font-color);
 }
@@ -120,11 +131,18 @@ input[type="checkbox"] {
 nav ul.active {
   left: 0;
 }
-nav ul li a.active-menu,
+
+/* nav ul li a.active-menu,
 nav ul li a:hover {
   color: var(--first-color);
   text-decoration: underline;
   text-underline-offset: 0.8em;
+} */
+
+.active-nav {
+	color: var(--first-color);
+	text-decoration: underline;
+	text-underline-offset: 0.8em;
 }
 /* main */
 main {
@@ -493,11 +511,16 @@ footer {
   padding: 10px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1075px) {
   nav {
-    padding: 0 40px 0 50px;
+    padding: 0 10px 0 10px;
   }
-
+  nav .nav-logo{
+    padding: 0 10px 0 50px;
+  }
+  nav .dark-btn i {
+    padding: 0px 50px;
+  }
   /* home */
   .home-title {
     padding: 60px 5px 5px 5px;
@@ -510,7 +533,7 @@ footer {
     width: 90%;
   }
   nav {
-    padding: 0 0px 0 0px;
+    padding: 0px;
   }
   nav .menu-btn {
     display: block;
@@ -521,23 +544,23 @@ footer {
     padding: 1px 1px;
   }
   nav .nav-logo {
-    padding: 10px 40px;
+    padding: 10px 30px;
   }
   nav ul {
-    position: absolute;
-    top: 80px;
-    left: -100%;
-    background: var(--font-color);
-    height: 100%;
-    width: 60%;
-    display: flex;
+    position: fixed;
+		top: 80px;
+		left: -100%;
+		background: var(--font-color);
+		height: 100%;
+		width: 60%;
     flex-direction: column;
-    text-align: center;
-    transition: all 0.3s ease;
+		text-align: center;
+		display: flex;
+		transition: all 0.3s ease;
   }
-  #ham-menu:checked ~ .menu-btn i:before {
+  /* #ham-menu:checked ~ .menu-btn i:before {
     content: "\f00d";
-  }
+  } */
   nav ul li {
     margin: 10px;
   }
@@ -772,3 +795,12 @@ footer {
     }
   }
 }
+<<<<<<< Updated upstream
+=======
+@media only screen and (max-width: 400px) {
+  #home{
+    height: 80vh;
+  }
+  
+}
+>>>>>>> Stashed changes

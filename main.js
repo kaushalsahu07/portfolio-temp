@@ -1,4 +1,4 @@
-//nav bar
+// nav bar
 let hamMenuIcon = document.getElementById("ham-menu");
 let navBar = document.getElementById("nav-bar");
 let navLinks = navBar.querySelectorAll("li");
@@ -56,21 +56,20 @@ function scrollUp() {
 	else scrollUp.classList.remove("show-scroll");
 }
 window.addEventListener("scroll", scrollUp);
-//nav
+//nav active 
 document.addEventListener("DOMContentLoaded", function() {
-	const nav = document.getElementById("nav-id");
-	const navItems = nav.getElementsByTagName("li");
+	// const navItems = navBar.getElementsByTagName("li");
 
 	// loop through navigation items
-	for (let i = 0; i < navItems.length; i++) {
+	for (let i = 0; i < navLinks.length; i++) {
 		// add click event listener to each item
-		navItems[i].addEventListener("click", function() {
+		navLinks[i].addEventListener("click", function() {
 			// remove active class from all items
-			for (let j = 0; j < navItems.length; j++) {
-				navItems[j].classList.remove("active");
+			for (let j = 0; j < navLinks.length; j++) {
+				navLinks[j].classList.remove("active-nav");
 			}
 			// add active class to selected item
-			this.classList.add("active");
+			this.classList.add("active-nav");
 		});
 	}
 });
