@@ -736,6 +736,7 @@ footer {
 
   .home-img img {
     width: 100%;
+    height: auto;
   }
 
   /* button  */
