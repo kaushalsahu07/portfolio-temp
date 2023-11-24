@@ -146,7 +146,7 @@ nav ul li a:hover {
 }
 /* main */
 main {
-  width: 85%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -170,8 +170,8 @@ main {
 }
 
 .home-img img {
-  width: 100%;
-  height: 28pc;
+  width: auto;
+  height: 25pc;
   margin-right: 10px;
   border: 1px solid var(--font-color);
   border-radius: 100%;
@@ -303,9 +303,12 @@ main {
 .skills-list {
   padding-top: 10px;
 }
+.skills-icon{
+  font-size: 20px;
+}
 
 .skills-list ol {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* Works */
@@ -599,8 +602,13 @@ footer {
   }
 
   /* img */
+  .home-img {
+    padding-top: 20px;
+  }
+
   .home-img img {
-    width: 90%;
+    width: 100%;
+    height: 60%;
   }
 
   /* about */
@@ -736,7 +744,7 @@ footer {
 
   .home-img img {
     width: 100%;
-    height: 100%;
+    height: 70%;
   }
 
   /* button  */
@@ -810,5 +818,8 @@ footer {
   #home{
     height: 80vh;
   }
-  
+  .home-img img{
+    width: auto;
+    height: 40%;
+  }
 }
