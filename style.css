@@ -816,9 +816,12 @@ footer {
 }
 @media only screen and (max-width: 400px) {
   #home{
-    height: 80vh;
+    height: 100vh;
   }
-  .home-img img{
+  .home-title {
+    padding: 40px 20px;
+  }
+  .home-img{
     width: auto;
     height: 55%;
   }
