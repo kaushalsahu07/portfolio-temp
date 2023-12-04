@@ -598,7 +598,7 @@ footer {
   /* title */
   .home-title {
     font-size: 30px;
-    padding: 80px 10px 10px 10px;
+    padding: 45% 10px 10px 10px;
   }
 
   /* img */
@@ -607,8 +607,8 @@ footer {
   }
 
   .home-img img {
-    width: 100%;
-    height: 60%;
+    width: auto;
+    height: 50%;
   }
 
   /* about */
@@ -734,17 +734,13 @@ footer {
 
   .home-title {
     font-size: 24px;
-    padding: 60px 10px 10px 10px;
+    padding: 70% 10px 10px 10px;
   }
 
   /* img */
-  .home-img {
-    padding-top: 20px;
-  }
-
   .home-img img {
-    width: 100%;
-    height: 70%;
+    width: auto;
+    height: 40%;
   }
 
   /* button  */
@@ -819,10 +815,10 @@ footer {
     height: 100vh;
   }
   .home-title {
-    padding: 40px 20px;
+    padding-top: 20pc;
   }
-  .home-img{
+  .home-img img{
     width: auto;
-    height: 55%;
+    height: 40%;
   }
 }
