@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Links -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Links -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 	<link rel="icon" type="image/profile" href="img/profile-pic.png">
-    <link rel="stylesheet" href="style.css" />
-    <title>Welcome To My Website</title>
-  </head>
-  <body>
-   <header>
-    <!-- nav -->
-    <nav>
-      <div class="nav-logo">CD.Kaushal</div>
-      <div class="menu-buttons">
-        <!-- drak mode -->
-        <div id="dark-btn" class="dark-btn">
-          <i id="icons" class="fa-solid fa-moon"></i>
-        </div>
-        <!-- menu btn --> 
-        <input type="checkbox" id="ham-menu" />
-        <label for="ham-menu" class="menu-btn">
-			<i class="fa-solid fa-bars-staggered"></i>
-        </label>
-      </div>
-      <ul id="nav-bar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skiils</a></li>
-        <li><a href="#works">Works</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  
+	<link rel="stylesheet" href="style.css" />
+	<title>Welcome To My Website</title>
+</head>
+
+<body>
+	<header>
+		<!-- nav -->
+		<nav>
+			<div class="nav-logo">CD.Kaushal</div>
+			<div class="menu-buttons">
+				<!-- drak mode -->
+				<div id="dark-btn" class="dark-btn">
+					<i id="icons" class="fa-solid fa-moon"></i>
+				</div>
+				<!-- menu btn -->
+				<input type="checkbox" id="ham-menu" />
+				<label for="ham-menu" class="menu-btn">
+					<i class="fa-solid fa-bars-staggered"></i>
+				</label>
+			</div>
+			<ul id="nav-bar">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skiils</a></li>
+				<li><a href="#works">Works</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
 	</header>
 	<!-- main -->
 	<main>
@@ -44,7 +43,7 @@
 		<section class="section" id="home">
 			<!-- title -->
 			<div class="home-title">
-				<h1>Hi,<br> I'm <samp>Kaushal</samp><br>
+				<h1>Hi,<br> I'm <span>Kaushal</span><br>
 					<div class="animated-text">
 						<h3>Web Designer</h3>
 						<h3>Frontend Developer</h3>
@@ -62,15 +61,16 @@
 			<div class="about-thiks">
 				<div class="about-img"><img src="img/about-us.png" alt=""></div>
 				<div class="about-p">
-					<p>Hi i'm <samp>Kaushal</samp><br> I know HTML, CSS, and JavaScript as a Brinnger. These languages enable me
-						to build stunning and useful websites. Additionally, I am an expert user of Figma, a potent design tool that
-						aids me in putting my ideas into action. My abilities also include making logos for gaming channels and
-						editing photos. I am able to take on a range of assignments and produce results of the highest calibre
-						because to my wide skill set.</p>
+					<p>Hello! i'm <span>Kaushal,</span><br> A web development enthusiast from India. I
+						have a solid foundation in HTML, CSS, and JavaScript, which are the building blocks of the web.
+						I’m also skilled in Tailwind CSS, a utility-first framework that makes designing sleek and
+						responsive interfaces a breeze. Currently, I’m expanding my skill set by learning React, a
+						powerful JavaScript library for building user interfaces. My goal is to become a full-fledged
+						web developer, crafting seamless and dynamic web experiences. While I’m still on my learning
+						journey,</p>
 				</div>
 			</div>
 		</section>
-
 		<!-- skills -->
 		<section class="section" id="skills">
 			<div class="header-title">Skills</div>
@@ -82,11 +82,11 @@
 				</div>
 				<div class="skills-list">
 					<ol>
-						<li><samp class="skills-icon"><i class="fa-brands fa-html5"></i></samp> Html</li>
-						<li><samp class="skills-icon"><i class="fa-brands fa-css3"></i></samp> Css</li>
-						<li><samp class="skills-icon"><i class="fa-brands fa-sass"></i></samp> Sass</li>
-						<li><samp class="skills-icon"><i class="fa-brands fa-square-js"></i></samp> JavaScript</li>
-						<li><samp class="skills-icon"><i class="fa-brands fa-figma"></i></samp> Figma</li>
+						<li><span class="skills-icon"><i class="fa-brands fa-html5"></i></span> Html</li>
+						<li><span class="skills-icon"><i class="fa-brands fa-css3"></i></span> Css</li>
+						<li><span class="skills-icon"><i class="fa-brands fa-sass"></i></span> Sass</li>
+						<li><span class="skills-icon"><i class="fa-brands fa-square-js"></i></span> JavaScript</li>
+						<li><span class="skills-icon"><i class="fa-brands fa-figma"></i></span> Figma</li>
 					</ol>
 				</div>
 			</div>
@@ -110,12 +110,14 @@
 							<div class="image__overlay image__overlay--primary">
 								<div class="image__title">Car Wesite</div>
 								<p class="image__description">
-									This website made by HTML, Tailwind & Js 
+									This website made by HTML, Tailwind & Js
 								</p>
 								<div class="image_button_box">
-								<a target="_blank" class="image_button" href="https://github.com/kaushalsahu07/elecar">Code</a>
-								<a target="_blank" class="image_button" href="https://kaushalsahu07.github.io/elecar/code/index.html">Website</a>
-							</div>
+									<a target="_blank" class="image_button"
+										href="https://github.com/kaushalsahu07/elecar">Code</a>
+									<a target="_blank" class="image_button"
+										href="https://kaushalsahu07.github.io/elecar/code/index.html">Website</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -126,11 +128,13 @@
 							<div class="image__overlay image__overlay--primary">
 								<div class="image__title">Red Store</div>
 								<p class="image__description">
-									Red Store is a simple e-commerce website template 
+									Red Store is a simple e-commerce website template
 								</p>
 								<div class="image_button_box">
-									<a target="_blank" class="image_button" href="https://github.com/kaushalsahu07/red-store">Code</a>
-									<a target="_blank" class="image_button" href="https://kaushalsahu07.github.io/red-store/">Website</a>
+									<a target="_blank" class="image_button"
+										href="https://github.com/kaushalsahu07/red-store">Code</a>
+									<a target="_blank" class="image_button"
+										href="https://kaushalsahu07.github.io/red-store/">Website</a>
 								</div>
 							</div>
 						</div>
@@ -145,8 +149,10 @@
 									You can See All the Citys Weather init
 								</p>
 								<div class="image_button_box">
-									<a target="_blank" class="image_button" href="https://github.com/kaushalsahu07/weather">Code</a>
-									<a target="_blank" class="image_button" href="https://kaushalsahu07.github.io/weather/">Website</a>
+									<a target="_blank" class="image_button"
+										href="https://github.com/kaushalsahu07/weather">Code</a>
+									<a target="_blank" class="image_button"
+										href="https://kaushalsahu07.github.io/weather/">Website</a>
 								</div>
 							</div>
 						</div>
@@ -161,7 +167,8 @@
 									This is a Desgin of Premium Watch App
 								</p>
 								<a target="_blank" class="image_button"
-									href="https://www.instagram.com/p/Cz6BgHoNGuQ/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">Visw Design</a>
+									href="https://www.instagram.com/p/Cz6BgHoNGuQ/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">Visw
+									Design</a>
 							</div>
 						</div>
 					</div>
@@ -175,7 +182,8 @@
 									This is a Desgin of Trip App
 								</p>
 								<a target="_blank" class="image_button"
-									href="https://www.instagram.com/p/CryUNH4IAWQ/?utm_source=ig_web_button_share_sheet">Visw Design</a>
+									href="https://www.instagram.com/p/CryUNH4IAWQ/?utm_source=ig_web_button_share_sheet">Visw
+									Design</a>
 							</div>
 						</div>
 					</div>
@@ -189,7 +197,8 @@
 									This is a Desgin of Car rent app
 								</p>
 								<a target="_blank" class="image_button"
-									href="https://www.instagram.com/p/Cs4IVd9oqsd/?utm_source=ig_web_button_share_sheet">Visw Design</a>
+									href="https://www.instagram.com/p/Cs4IVd9oqsd/?utm_source=ig_web_button_share_sheet">Visw
+									Design</a>
 							</div>
 						</div>
 					</div>
@@ -235,14 +244,18 @@
 
 						<div class="footer-list-pages">
 							<ul>
-								<li><a href="https://instagram.com/cd.kaushal" target="_blank"><i class="fa-brands fa-instagram"></i>
+								<li><a href="https://instagram.com/cd.kaushal" target="_blank"><i
+											class="fa-brands fa-instagram"></i>
 										Instagram</a></li>
-								<li><a href="https://github.com/kaushalsahu07" target="_blank"><i class="fa-brands fa-github"></i>
+								<li><a href="https://github.com/kaushalsahu07" target="_blank"><i
+											class="fa-brands fa-github"></i>
 										Github</a></li>
-								<li><a href="https://dribbble.com/cdkaushal" target="_blank"><i class="fa-brands fa-dribbble"></i>
+								<li><a href="https://dribbble.com/cdkaushal" target="_blank"><i
+											class="fa-brands fa-dribbble"></i>
 										Dibbble</a></li>
-								<li><a href="https://twitter.com/kaushalsahu_07" target="_blank"><i class="fa-brands fa-x-twitter"></i>
-										X</a></li>
+								<li><a href="https://twitter.com/kaushalsahu_07" target="_blank"><i
+											class="fa-brands fa-x-twitter"></i>
+										Twitter</a></li>
 							</ul>
 						</div>
 					</div>
@@ -252,9 +265,10 @@
 					<div class="footer-title">Copyright© 2023</div>
 				</footer>
 	</main>
-	
-    <!-- javasprite -->
+
+	<!-- javasprite -->
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+	<script src="main.js"></script>
+</body>
+
 </html>

@@ -22,8 +22,8 @@
 html{
   scroll-behavior: smooth;
 }
-/* samp */
-samp {
+/* span */
+span {
   color: var(--first-color);
 }
 /* title */
