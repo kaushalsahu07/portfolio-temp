@@ -73,25 +73,45 @@ document.addEventListener("DOMContentLoaded", function() {
 		});
 	}
 });
+
 // contact form
 const contactForm = document.getElementById('contact-form'),
 	contactMessage = document.getElementById('contact-message'),
-	contactEmail = document.getElementById('contact-email');
+	contactName = document.getElementById('name'),
+	contactEmail = document.getElementById('email'),
+	contactContent = document.getElementById('message');
 
 const sendEmail = (e) => {
-	e.preventDefault()
-	emailjs.sendForm('service_axjwsjs', 'template_g063nj2', '#contact-form', 'AnwMl_zSAYOVxr07h')
+	e.preventDefault();
+
+	// Validate form inputs
+	if (!contactName.value.trim() || !contactEmail.value.trim() || !contactContent.value.trim()) {
+		contactMessage.textContent = 'Please fill out all fields ❌';
+		contactMessage.style.color = 'red';
+
+		setTimeout(() => {
+			contactMessage.textContent = '';
+		}, 5000);
+
+		return;
+	}
+
+	// Send email via EmailJS
+	emailjs.sendForm('service_ocbcwjp', 'template_g063nj2', '#contact-form', 'k-9fDFVguwbqb-c4j')
 		.then(() => {
-			contactMessage.textContent = 'Message have sended ✅'
+			contactMessage.textContent = 'Message sent successfully ✅';
+			contactMessage.style.color = 'green';
 
 			setTimeout(() => {
-				contactMessage.textContent = ''
-			}, 5000)
+				contactMessage.textContent = '';
+			}, 5000);
 
-			contactForm.reset()
+			contactForm.reset();
 		}, () => {
-			contactMessage.textContent = 'Message not send (service error) ❌'
-		})
-}
+			contactMessage.textContent = 'Message not sent (service error) ❌';
+			contactMessage.style.color = 'red';
+		});
+};
 
-contactForm.addEventListener('submit', sendEmail)
+// Event listener for form submission
+contactForm.addEventListener('submit', sendEmail);
