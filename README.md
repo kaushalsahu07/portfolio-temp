@@ -25,7 +25,7 @@ Welcome to my **developer portfolio** repository! This is a sleek, modern, and f
 
 ## 📸 Live Demo
 
-> 👉 [Click here to view the live site](https://your-live-demo-link.com)
+> 👉 [Click here to view the live site](https://kaushalsahu07.github.io/portfolio-temp/)
 
 
 
@@ -40,8 +40,8 @@ Hi, I'm **Kaushal Sahu** – a passionate frontend developer with a flair for cr
 📧 Email: [kaushalsahu.me@google.com](mailto:kaushalsahu.me@google.com)<br>
 🔗 LinkedIn: [Kaushal Sahu](https://linkedin.com/in/kaushalsahu07)<br>
 🐦 Twitter: [@kaushalsahu\_07](https://x.com/kaushalsahu_07)<br>
-Instagram: [@cd.kaushal](https://www.instagram.com/cd.kaushal?igsh=cTVram1ia3Vvamxz)<br>
-Portfolio: [Website Link ](https://kaushalsahu07.github.io/portfolio/)
+✨ Instagram: [@cd.kaushal](https://www.instagram.com/cd.kaushal?igsh=cTVram1ia3Vvamxz)<br>
+🌏 Portfolio: [Website Link ](https://kaushalsahu07.github.io/portfolio/)
 
 
 ## 🤝 Contributing
